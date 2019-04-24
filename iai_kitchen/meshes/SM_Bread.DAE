@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
-  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2019-04-23T15:18:40Z</created><keywords></keywords><modified>2019-04-23T15:18:40Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Z_UP</up_axis></asset>
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2019-04-24T14:13:46Z</created><keywords></keywords><modified>2019-04-24T14:13:46Z</modified><revision></revision><subject></subject><title></title><unit meter="0.025400" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
   <library_images>
     <image id="EnvSamplerTex-image" name="EnvSamplerTex"><init_from>file://F:\Unreal Projects\Models\Bread\Bread.png</init_from></image>
   </library_images>
@@ -1447,7 +1447,7 @@
   </library_animations>
   <library_visual_scenes>
     <visual_scene id="SM_Bread" name="SM_Bread">
-      <node name="SM_Bread" id="SM_Bread" sid="SM_Bread"><matrix sid="matrix">0.247658 0.000000 0.000000 -0.000000 0.000000 0.393701 0.000000 0.000000 0.000000 0.000000 0.247395 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#SM_Bread-lib"><bind_material><technique_common><instance_material symbol="M_Bread" target="#M_Bread"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
+      <node name="SM_Bread" id="SM_Bread" sid="SM_Bread"><matrix sid="matrix">0.247658 0.000000 0.000000 -0.000000 0.000000 0.000000 0.247395 0.000000 0.000000 -0.393701 0.000000 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><instance_geometry url="#SM_Bread-lib"><bind_material><technique_common><instance_material symbol="M_Bread" target="#M_Bread"/></technique_common></bind_material></instance_geometry><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node>
       <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>3.333333</end_time></technique></extra>
     </visual_scene>
   </library_visual_scenes>
